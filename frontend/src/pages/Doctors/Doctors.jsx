@@ -1,6 +1,5 @@
 import DoctorCard from "./../../components/Doctors/DoctorCard";
 import { doctors } from "./../../assets/data/doctors";
-import Testimonial from "../../components/Testimonial/Testimonial";
 import { BASE_URL } from "./../../config";
 import useFetchData from "./../../hooks/useFetchData";
 import Loader from "../../components/Loader/Loading";
@@ -67,19 +66,6 @@ const Doctors = () => {
         </div>
       </section>
 
-      {/* <section>
-        <div className="container">
-          <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">What our patients say</h2>
-            <p className="text__para text-center">
-              World class care for everyone. Our health System offfers
-              unmatched, expert health care.
-            </p>
-          </div>
-
-          <Testimonial />
-        </div>
-      </section> */}
     </>
   );
 };
